@@ -1,0 +1,5 @@
+before you run the npm run dev command in the padre-ginos , you should run the server
+so you should navigate to the api directory(cd ../api) 
+
+then run the command npm run dev
+then go to http://localhost:3000/api/pizzas. check server working
