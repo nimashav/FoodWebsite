@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom";
 import Order from "./Order";
 import { StrictMode } from "react";
+import PizzaOfTheDay from "./PizzaOfTheDay";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div>
         <h1>Padre Gino's - Order Now</h1>
         <Order />
+        <PizzaOfTheDay />
       </div>
     </StrictMode>
   );
