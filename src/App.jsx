@@ -2,12 +2,13 @@ import { createRoot } from "react-dom";
 import Order from "./Order";
 import { StrictMode } from "react";
 import PizzaOfTheDay from "./PizzaOfTheDay";
+import Header from "./Header";
 
 const App = () => {
   return (
     <StrictMode>
       <div>
-        <h1 className="logo">Padre Gino's - Order Now</h1>
+        <Header />
         <Order />
         <PizzaOfTheDay />
       </div>
